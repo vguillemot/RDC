@@ -2,7 +2,7 @@
 title       : R objects
 description : Manipulate and practice with R most classical objects like vectors, facteors and matrices
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:3b6476edc3
 ## Operations
 
 R can 
