@@ -28,7 +28,7 @@ It is necessary to know how to use them to understand and to write an R program.
 *** =solution
 ```{r}
 # Generate a random value between 0 and 1
-x <- runif(1)
+x <- runif(n=1)
 # If x is greater than 0.5, print "x > 0.5"
 if (x > 0.5) print("x > 0.5")
 ```
