@@ -37,7 +37,7 @@ if (x > 0.5) print("x > 0.5")
 ```{r}
 # SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
 
-test_function("runif", args="1") # to check whether runif was correctly used
+test_function("runif", args="x") # to check whether runif was correctly used
 test_object("x") # to check whether x was correctly defined
 
 test_if_else(if_cond_test = test_student_typed(c("x > 0.5","x>0.5")), 
