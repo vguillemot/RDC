@@ -1,0 +1,45 @@
+---
+title       : Control-flow constructs in R
+description : Practise with conditional statements (if, then, else) and loops (for, while)
+
+--- type:NormalExercise lang:r xp:100 skills:1 key:3b6476edc3
+## Operations
+
+Conditional statements are highly used in computer programming.
+It is necessary to know how to use them to understand and to write an R program.
+
+*** =instructions
+- Randomly assign to `x` a value between 0 and 1.
+- If this value is greater than 0.5, print the following message: "x > 0.5".
+
+*** =hint
+- Use `runif`.
+- The syntax for the `if` statement is the following: `if (boolean) instruction`.
+
+*** =sample_code
+```{r}
+# Generate a random value between 0 and 1
+
+# If x is greater than 0.5, print "x > 0.5"
+
+```
+
+*** =solution
+```{r}
+# Generate a random value between 0 and 1
+x <- runif(1)
+# If x is greater than 0.5, print "x > 0.5"
+if (x > 0.5) print("x > 0.5")
+```
+
+*** =sct
+```{r}
+# SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
+
+test_function("runif", args=1) # to check whether runif was correctly used
+test_object("x") # to check whether x was correctly defined
+
+test_if_else(if_cond_test = test_student_typed(c("x > 0.5","x>0.5")), 
+  if_expr_test = test_function("print", "x > 0.5")) 
+success_msg("Good work!")
+```
