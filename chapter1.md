@@ -99,7 +99,7 @@ xsq <- x^2
 
 test_student_typed("1:10",
                    not_typed_msg = "Just type '1:10'")
-test_student_typed("2^5",
+test_student_typed("x <- 1:10",
                    not_typed_msg = "Just type 'x <- 1:10'")
 test_student_typed("x^2",
                    not_typed_msg = "Use ^")
