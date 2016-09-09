@@ -41,11 +41,11 @@ sin(2 * pi)
 ```{r}
 # SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
 
-test_student_typed("1+2+3+4+5"
+test_student_typed("1+2+3+4+5",
                    not_typed_msg = "You need to use +")
-test_student_typed("2^5"
+test_student_typed("2^5",
                    not_typed_msg = "You need to use +")
-test_student_typed("sin(2*pi)"
+test_student_typed("sin(2*pi)",
                    not_typed_msg = "You need to use +")
 test_error()
 
