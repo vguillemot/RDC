@@ -3,7 +3,7 @@ title       : Control-flow constructs in R
 description : Practise with conditional statements (if, then, else) and loops (for, while)
 
 --- type:NormalExercise lang:r xp:100 skills:1
-## Operations
+## Conditions
 
 Conditional statements are highly used in computer programming.
 It is necessary to know how to use them to understand and to write an R program.
@@ -41,5 +41,40 @@ test_object("x") # to check whether x was correctly defined
 
 test_if_else(if_cond_test = test_student_typed(c("x > 0.5","x>0.5")), 
   if_expr_test = test_function("print", "x > 0.5")) 
+success_msg("Good work!")
+```
+
+--- type:NormalExercise lang:r xp:100 skills:1
+## Loops
+
+Loops are ubiquitous in statistical algorithms and programming.
+They allow to explore and create multidimensional objects through a fixed (or not) number of iterations.
+
+*** =instructions
+- With a `for` loop, print the integers from 1 to 5
+
+*** =hint
+- The syntax for the `for` statement is the following: `for (i in 1:n) instruction depending on i`.
+
+*** =sample_code
+```{r}
+# Use a for loop to print integers
+
+```
+
+*** =solution
+```{r}
+# Use a for loop to print integers
+for (i in 1:5) print(i)
+```
+
+*** =sct
+```{r}
+# SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
+
+test_for_loop(cond_test = test_student_typed("in 1:5",
+                                             not_typed_msg = "You can use `i in 1:5` to define your for loop."),
+              expr_test = test_function("print", "x", eval = FALSE),
+              not_found_msg = "Make sure to code a for loop in the first place!")
 success_msg("Good work!")
 ```
