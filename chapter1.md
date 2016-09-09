@@ -52,7 +52,7 @@ test_error()
 success_msg("Good work!")
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1 key:3b6476edc3
+--- type:NormalExercise lang:r xp:100 skills:1 key:d5b1d777d1
 ## Assignment
 
 Any operation can be assigned to an object that is stored in the current working environment and used for further calculations.
