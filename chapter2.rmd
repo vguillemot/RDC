@@ -2,7 +2,7 @@
 title       : Control-flow constructs in R
 description : Practise with conditional statements (if, then, else) and loops (for, while)
 
---- type:NormalExercise lang:r xp:100 skills:1 key:2
+--- type:NormalExercise lang:r xp:100 skills:1
 ## Operations
 
 Conditional statements are highly used in computer programming.
