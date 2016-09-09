@@ -2,7 +2,7 @@
 title       : Control-flow constructs in R
 description : Practise with conditional statements (if, then, else) and loops (for, while)
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:5d5d437f54
 
 ## Conditions
 
@@ -45,7 +45,7 @@ test_if_else(if_cond_test = test_student_typed(c("x > 0.5","x>0.5")),
 success_msg("Good work!")
 ```
 
---- type:NormalExercise lang:r xp:100 skills:1
+--- type:NormalExercise lang:r xp:100 skills:1 key:d055601343
 ## Loops
 
 Loops are ubiquitous in statistical algorithms and programming.
